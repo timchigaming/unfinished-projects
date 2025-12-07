@@ -1,0 +1,19 @@
+{
+    "configurations": [
+    {
+        "name": "Debug shit shit",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/out/start.elf",
+        "cwd": "${workspaceFolder}",
+        "miDebuggerPath": "gdb",
+        "miDebuggerServerAddress": ":1234",
+        "stopAtEntry": true,
+        "symbolLoadInfo": {
+            "loadAll": true,
+            "exceptionList": ""
+        },
+        "preLaunchTask": "Run QEMU"
+    }
+    ]
+}
